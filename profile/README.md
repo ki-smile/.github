@@ -28,7 +28,7 @@ SMAILE supports the adoption of medical technology, digital health solutions, an
 
 | Repository | What it is | Website / Docs |
 |---|---|---|
-| [medley](https://github.com/ki-smile/medley) | MEDLEY — multi-model medical diagnostic ensemble (31 LLMs from 6 countries) that surfaces bias and minority opinions for clinical oversight | [smile.ki.se](https://smile.ki.se) |
+| [medley](https://github.com/ki-smile/medley) | MEDLEY — multi-model medical diagnostic ensemble (31 LLMs from 6 countries) that surfaces bias and minority opinions for clinical oversight | [medley.smile.ki.se](https://medley.smile.ki.se) |
 | [medley-bench](https://github.com/ki-smile/medley-bench) | Benchmark for behavioural metacognition in LLMs under social-epistemic pressure (130 instances, 5 domains) | [ki-smile.github.io/medley-bench](https://ki-smile.github.io/medley-bench/) |
 | [triage-medley](https://github.com/ki-smile/triage-medley) | Human-in-the-loop ED triage decision support using multi-model disagreement as a safety signal | [triage.medleyai.org](https://triage.medleyai.org) |
 | [trustcv](https://github.com/ki-smile/trustcv) | Framework-agnostic trustworthy cross-validation toolkit with leakage/balance checks and regulatory reporting (29 CV methods) | [ki-smile.github.io/trustcv](https://ki-smile.github.io/trustcv/) · [PyPI](https://pypi.org/project/trustcv/) |
