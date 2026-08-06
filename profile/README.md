@@ -33,6 +33,7 @@ SMAILE supports the adoption of medical technology, digital health solutions, an
 | [triage-medley](https://github.com/ki-smile/triage-medley) | Human-in-the-loop ED triage decision support using multi-model disagreement as a safety signal | [triage.medleyai.org](https://triage.medleyai.org) |
 | [trustcv](https://github.com/ki-smile/trustcv) | Framework-agnostic trustworthy cross-validation toolkit with leakage/balance checks and regulatory reporting (29 CV methods) | [ki-smile.github.io/trustcv](https://ki-smile.github.io/trustcv/) · [PyPI](https://pypi.org/project/trustcv/) |
 | [aegis](https://github.com/ki-smile/aegis) | Operational infrastructure for post-market governance of adaptive medical AI under US & EU regulations | [ki-smile.github.io/aegis](https://ki-smile.github.io/aegis) |
+| [post-training-taxonomy](https://github.com/ki-smile/post-training-taxonomy) | Six-dimensional taxonomy of 48 post-training adaptation techniques (fine-tuning, RAG, alignment, unlearning…), with a governance mapping and an interactive explorer | [ki-smile.github.io/post-training-taxonomy](https://ki-smile.github.io/post-training-taxonomy/) |
 | [healthprocessai](https://github.com/ki-smile/healthprocessai) | Dual-language (Python & R) process-mining framework for healthcare, with multi-model LLM insight synthesis | [ki-smile.github.io/healthprocessai](https://ki-smile.github.io/healthprocessai/website/) |
 | [smile_manual](https://github.com/ki-smile/smile_manual) | User manual for connecting to and deploying on the SMAILE Kubernetes cluster at KI | — |
 
@@ -41,7 +42,7 @@ SMAILE supports the adoption of medical technology, digital health solutions, an
 ## Themes across our work
 
 - **Disagreement as signal.** MEDLEY, Triage-Medley, and MEDLEY-Bench all preserve and analyse divergence between models rather than collapsing it into consensus.
-- **Trustworthy & regulated AI.** TrustCV and AEGIS focus on validation rigor, data-leakage detection, and regulatory-aligned governance (EU AI Act, MDR/IVDR, FDA).
+- **Trustworthy & regulated AI.** TrustCV, AEGIS and the post-training taxonomy focus on validation rigor, data-leakage detection, and regulatory-aligned governance (EU AI Act, MDR/IVDR, FDA) — including the vocabulary needed to describe precisely how a deployed model was changed.
 - **Healthcare analytics & process mining.** HealthProcessAI brings clinical pathway optimization and AI-powered insight synthesis to healthcare data.
 - **Reproducible research infrastructure.** smile_manual documents our DGX Kubernetes environment for medical AI research workflows.
 
